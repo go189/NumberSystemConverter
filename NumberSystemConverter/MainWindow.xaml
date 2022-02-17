@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:NumberSystemConverter"
         mc:Ignorable="d"
         Title="Number System Converter
-        " Height="210" Width="361">
+        " Height="210" Width="361" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition />
@@ -19,16 +19,16 @@
         <TextBox x:Name="inputTextBox" HorizontalAlignment="Center" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="161" Margin="0,13,0,0" Height="18"/>
         <Button x:Name="convertButton" Grid.Column="1" Content="Convert" HorizontalAlignment="Center" Margin="0,12,0,0" Grid.Row="1" VerticalAlignment="Top" Width="161" Height="20" Click="convertButton_Click"/>
         <StackPanel x:Name="fromStackPanel" Margin="0,30,0,0">
-            <RadioButton x:Name="binary" Content="Binary" Margin="5,8,0,0"/>
-            <RadioButton x:Name="octal" Content="Octal" Margin="5,8,0,0"/>
-            <RadioButton x:Name="decimal" Content="Decimal" Margin="5,8,0,0"/>
-            <RadioButton x:Name="hexadecimal" Content="Hexadecimal" Margin="5,8,0,0"/>
+            <RadioButton x:Name="fbinary" Content="Binary" Margin="5,8,0,0"/>
+            <RadioButton x:Name="foctal" Content="Octal" Margin="5,8,0,0"/>
+            <RadioButton x:Name="fdecimal" Content="Decimal" Margin="5,8,0,0"/>
+            <RadioButton x:Name="fhexadecimal" Content="Hexadecimal" Margin="5,8,0,0"/>
         </StackPanel>
         <StackPanel x:Name="toStackPanel" Margin="0,30,0,0" Grid.Column="1">
-            <RadioButton x:Name="binary" Content="Binary" Margin="5,8,0,0"/>
-            <RadioButton x:Name="octal" Content="Octal" Margin="5,8,0,0"/>
-            <RadioButton x:Name="decimal" Content="Decimal" Margin="5,8,0,0"/>
-            <RadioButton x:Name="hexadecimal" Content="Hexadecimal" Margin="5,8,0,0"/>
+            <RadioButton x:Name="tbinary" Content="Binary" Margin="5,8,0,0"/>
+            <RadioButton x:Name="toctal" Content="Octal" Margin="5,8,0,0"/>
+            <RadioButton x:Name="tdecimal" Content="Decimal" Margin="5,8,0,0"/>
+            <RadioButton x:Name="thexadecimal" Content="Hexadecimal" Margin="5,8,0,0"/>
         </StackPanel>
         <Label Content="FROM" HorizontalAlignment="Center" Margin="0,4,0,0" VerticalAlignment="Top"/>
         <Label Content="TO" HorizontalAlignment="Center" Margin="0,4,0,0" VerticalAlignment="Top" Grid.Column="1"/>
